@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA79D2F29C77553002BA1C6 /* Spirited_NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D2E29C77553002BA1C6 /* Spirited_NotesApp.swift */; };
+		FAA79D3129C77553002BA1C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D3029C77553002BA1C6 /* ContentView.swift */; };
+		FAA79D3329C77556002BA1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA79D3229C77556002BA1C6 /* Assets.xcassets */; };
+		FAA79D3629C77556002BA1C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA79D3529C77556002BA1C6 /* Preview Assets.xcassets */; };
+		FAA79D4029C77556002BA1C6 /* Spirited_NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D3F29C77556002BA1C6 /* Spirited_NotesTests.swift */; };
+		FAA79D4A29C77556002BA1C6 /* Spirited_NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D4929C77556002BA1C6 /* Spirited_NotesUITests.swift */; };
+		FAA79D4C29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D4B29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA79D3C29C77556002BA1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA79D2329C77553002BA1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA79D2A29C77553002BA1C6;
+			remoteInfo = "Spirited Notes";
+		};
+		FAA79D4629C77556002BA1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA79D2329C77553002BA1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA79D2A29C77553002BA1C6;
+			remoteInfo = "Spirited Notes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA79D2B29C77553002BA1C6 /* Spirited Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spirited Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA79D2E29C77553002BA1C6 /* Spirited_NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirited_NotesApp.swift; sourceTree = "<group>"; };
+		FAA79D3029C77553002BA1C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA79D3229C77556002BA1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA79D3529C77556002BA1C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA79D3B29C77556002BA1C6 /* Spirited NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spirited NotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA79D3F29C77556002BA1C6 /* Spirited_NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirited_NotesTests.swift; sourceTree = "<group>"; };
+		FAA79D4529C77556002BA1C6 /* Spirited NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spirited NotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA79D4929C77556002BA1C6 /* Spirited_NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirited_NotesUITests.swift; sourceTree = "<group>"; };
+		FAA79D4B29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirited_NotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA79D2829C77553002BA1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA79D3829C77556002BA1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA79D4229C77556002BA1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA79D2229C77553002BA1C6 = {
+			isa = PBXGroup;
+			children = (
+				FAA79D2D29C77553002BA1C6 /* Spirited Notes */,
+				FAA79D3E29C77556002BA1C6 /* Spirited NotesTests */,
+				FAA79D4829C77556002BA1C6 /* Spirited NotesUITests */,
+				FAA79D2C29C77553002BA1C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA79D2C29C77553002BA1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79D2B29C77553002BA1C6 /* Spirited Notes.app */,
+				FAA79D3B29C77556002BA1C6 /* Spirited NotesTests.xctest */,
+				FAA79D4529C77556002BA1C6 /* Spirited NotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA79D2D29C77553002BA1C6 /* Spirited Notes */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79D2E29C77553002BA1C6 /* Spirited_NotesApp.swift */,
+				FAA79D3029C77553002BA1C6 /* ContentView.swift */,
+				FAA79D3229C77556002BA1C6 /* Assets.xcassets */,
+				FAA79D3429C77556002BA1C6 /* Preview Content */,
+			);
+			path = "Spirited Notes";
+			sourceTree = "<group>";
+		};
+		FAA79D3429C77556002BA1C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79D3529C77556002BA1C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA79D3E29C77556002BA1C6 /* Spirited NotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79D3F29C77556002BA1C6 /* Spirited_NotesTests.swift */,
+			);
+			path = "Spirited NotesTests";
+			sourceTree = "<group>";
+		};
+		FAA79D4829C77556002BA1C6 /* Spirited NotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79D4929C77556002BA1C6 /* Spirited_NotesUITests.swift */,
+				FAA79D4B29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift */,
+			);
+			path = "Spirited NotesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA79D2A29C77553002BA1C6 /* Spirited Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA79D4F29C77556002BA1C6 /* Build configuration list for PBXNativeTarget "Spirited Notes" */;
+			buildPhases = (
+				FAA79D2729C77553002BA1C6 /* Sources */,
+				FAA79D2829C77553002BA1C6 /* Frameworks */,
+				FAA79D2929C77553002BA1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spirited Notes";
+			productName = "Spirited Notes";
+			productReference = FAA79D2B29C77553002BA1C6 /* Spirited Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA79D3A29C77556002BA1C6 /* Spirited NotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA79D5229C77556002BA1C6 /* Build configuration list for PBXNativeTarget "Spirited NotesTests" */;
+			buildPhases = (
+				FAA79D3729C77556002BA1C6 /* Sources */,
+				FAA79D3829C77556002BA1C6 /* Frameworks */,
+				FAA79D3929C77556002BA1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA79D3D29C77556002BA1C6 /* PBXTargetDependency */,
+			);
+			name = "Spirited NotesTests";
+			productName = "Spirited NotesTests";
+			productReference = FAA79D3B29C77556002BA1C6 /* Spirited NotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA79D4429C77556002BA1C6 /* Spirited NotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA79D5529C77556002BA1C6 /* Build configuration list for PBXNativeTarget "Spirited NotesUITests" */;
+			buildPhases = (
+				FAA79D4129C77556002BA1C6 /* Sources */,
+				FAA79D4229C77556002BA1C6 /* Frameworks */,
+				FAA79D4329C77556002BA1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA79D4729C77556002BA1C6 /* PBXTargetDependency */,
+			);
+			name = "Spirited NotesUITests";
+			productName = "Spirited NotesUITests";
+			productReference = FAA79D4529C77556002BA1C6 /* Spirited NotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA79D2329C77553002BA1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FAA79D2A29C77553002BA1C6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FAA79D3A29C77556002BA1C6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FAA79D2A29C77553002BA1C6;
+					};
+					FAA79D4429C77556002BA1C6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FAA79D2A29C77553002BA1C6;
+					};
+				};
+			};
+			buildConfigurationList = FAA79D2629C77553002BA1C6 /* Build configuration list for PBXProject "Spirited Notes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA79D2229C77553002BA1C6;
+			productRefGroup = FAA79D2C29C77553002BA1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA79D2A29C77553002BA1C6 /* Spirited Notes */,
+				FAA79D3A29C77556002BA1C6 /* Spirited NotesTests */,
+				FAA79D4429C77556002BA1C6 /* Spirited NotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA79D2929C77553002BA1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA79D3629C77556002BA1C6 /* Preview Assets.xcassets in Resources */,
+				FAA79D3329C77556002BA1C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA79D3929C77556002BA1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA79D4329C77556002BA1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA79D2729C77553002BA1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA79D3129C77553002BA1C6 /* ContentView.swift in Sources */,
+				FAA79D2F29C77553002BA1C6 /* Spirited_NotesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA79D3729C77556002BA1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA79D4029C77556002BA1C6 /* Spirited_NotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA79D4129C77556002BA1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA79D4C29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift in Sources */,
+				FAA79D4A29C77556002BA1C6 /* Spirited_NotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA79D3D29C77556002BA1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA79D2A29C77553002BA1C6 /* Spirited Notes */;
+			targetProxy = FAA79D3C29C77556002BA1C6 /* PBXContainerItemProxy */;
+		};
+		FAA79D4729C77556002BA1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA79D2A29C77553002BA1C6 /* Spirited Notes */;
+			targetProxy = FAA79D4629C77556002BA1C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAA79D4D29C77556002BA1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA79D4E29C77556002BA1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA79D5029C77556002BA1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spirited Notes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twigandtoast.Spirited-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA79D5129C77556002BA1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spirited Notes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twigandtoast.Spirited-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA79D5329C77556002BA1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twigandtoast.Spirited-NotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spirited Notes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spirited Notes";
+			};
+			name = Debug;
+		};
+		FAA79D5429C77556002BA1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twigandtoast.Spirited-NotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spirited Notes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spirited Notes";
+			};
+			name = Release;
+		};
+		FAA79D5629C77556002BA1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twigandtoast.Spirited-NotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spirited Notes";
+			};
+			name = Debug;
+		};
+		FAA79D5729C77556002BA1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twigandtoast.Spirited-NotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spirited Notes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA79D2629C77553002BA1C6 /* Build configuration list for PBXProject "Spirited Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA79D4D29C77556002BA1C6 /* Debug */,
+				FAA79D4E29C77556002BA1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA79D4F29C77556002BA1C6 /* Build configuration list for PBXNativeTarget "Spirited Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA79D5029C77556002BA1C6 /* Debug */,
+				FAA79D5129C77556002BA1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA79D5229C77556002BA1C6 /* Build configuration list for PBXNativeTarget "Spirited NotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA79D5329C77556002BA1C6 /* Debug */,
+				FAA79D5429C77556002BA1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA79D5529C77556002BA1C6 /* Build configuration list for PBXNativeTarget "Spirited NotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA79D5629C77556002BA1C6 /* Debug */,
+				FAA79D5729C77556002BA1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA79D2329C77553002BA1C6 /* Project object */;
+}
