@@ -14,6 +14,14 @@
 		FAA79D4029C77556002BA1C6 /* Spirited_NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D3F29C77556002BA1C6 /* Spirited_NotesTests.swift */; };
 		FAA79D4A29C77556002BA1C6 /* Spirited_NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D4929C77556002BA1C6 /* Spirited_NotesUITests.swift */; };
 		FAA79D4C29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D4B29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift */; };
+		FAA79D5929C936B1002BA1C6 /* Tasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D5829C936B1002BA1C6 /* Tasting.swift */; };
+		FAA79D5B29C93714002BA1C6 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D5A29C93714002BA1C6 /* Drink.swift */; };
+		FAA79D5F29C938B8002BA1C6 /* TastingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D5E29C938B8002BA1C6 /* TastingRow.swift */; };
+		FAA79D6229C93970002BA1C6 /* tastingData.json in Resources */ = {isa = PBXBuildFile; fileRef = FAA79D6129C93970002BA1C6 /* tastingData.json */; };
+		FAA79D6429C939F8002BA1C6 /* drinkData.json in Resources */ = {isa = PBXBuildFile; fileRef = FAA79D6329C939F8002BA1C6 /* drinkData.json */; };
+		FAA79D6629C93A89002BA1C6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6529C93A89002BA1C6 /* ModelData.swift */; };
+		FAA79D6A29C94098002BA1C6 /* TastingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6929C94098002BA1C6 /* TastingList.swift */; };
+		FAA79D6C29C94DEA002BA1C6 /* TastingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		FAA79D4529C77556002BA1C6 /* Spirited NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spirited NotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA79D4929C77556002BA1C6 /* Spirited_NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirited_NotesUITests.swift; sourceTree = "<group>"; };
 		FAA79D4B29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirited_NotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAA79D5829C936B1002BA1C6 /* Tasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasting.swift; sourceTree = "<group>"; };
+		FAA79D5A29C93714002BA1C6 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		FAA79D5E29C938B8002BA1C6 /* TastingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingRow.swift; sourceTree = "<group>"; };
+		FAA79D6129C93970002BA1C6 /* tastingData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tastingData.json; sourceTree = "<group>"; };
+		FAA79D6329C939F8002BA1C6 /* drinkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drinkData.json; sourceTree = "<group>"; };
+		FAA79D6529C93A89002BA1C6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		FAA79D6929C94098002BA1C6 /* TastingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingList.swift; sourceTree = "<group>"; };
+		FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				FAA79D2E29C77553002BA1C6 /* Spirited_NotesApp.swift */,
-				FAA79D3029C77553002BA1C6 /* ContentView.swift */,
 				FAA79D3229C77556002BA1C6 /* Assets.xcassets */,
+				FAA79D5D29C9388E002BA1C6 /* Views */,
+				FAA79D5C29C9384B002BA1C6 /* Model */,
+				FAA79D6029C93913002BA1C6 /* Resources */,
 				FAA79D3429C77556002BA1C6 /* Preview Content */,
 			);
 			path = "Spirited Notes";
@@ -125,6 +143,36 @@
 				FAA79D4B29C77556002BA1C6 /* Spirited_NotesUITestsLaunchTests.swift */,
 			);
 			path = "Spirited NotesUITests";
+			sourceTree = "<group>";
+		};
+		FAA79D5C29C9384B002BA1C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79D5829C936B1002BA1C6 /* Tasting.swift */,
+				FAA79D5A29C93714002BA1C6 /* Drink.swift */,
+				FAA79D6529C93A89002BA1C6 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAA79D5D29C9388E002BA1C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79D3029C77553002BA1C6 /* ContentView.swift */,
+				FAA79D5E29C938B8002BA1C6 /* TastingRow.swift */,
+				FAA79D6929C94098002BA1C6 /* TastingList.swift */,
+				FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAA79D6029C93913002BA1C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA79D6129C93970002BA1C6 /* tastingData.json */,
+				FAA79D6329C939F8002BA1C6 /* drinkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +279,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA79D6429C939F8002BA1C6 /* drinkData.json in Resources */,
 				FAA79D3629C77556002BA1C6 /* Preview Assets.xcassets in Resources */,
 				FAA79D3329C77556002BA1C6 /* Assets.xcassets in Resources */,
+				FAA79D6229C93970002BA1C6 /* tastingData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA79D5929C936B1002BA1C6 /* Tasting.swift in Sources */,
 				FAA79D3129C77553002BA1C6 /* ContentView.swift in Sources */,
+				FAA79D5B29C93714002BA1C6 /* Drink.swift in Sources */,
+				FAA79D6C29C94DEA002BA1C6 /* TastingDetail.swift in Sources */,
 				FAA79D2F29C77553002BA1C6 /* Spirited_NotesApp.swift in Sources */,
+				FAA79D5F29C938B8002BA1C6 /* TastingRow.swift in Sources */,
+				FAA79D6A29C94098002BA1C6 /* TastingList.swift in Sources */,
+				FAA79D6629C93A89002BA1C6 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

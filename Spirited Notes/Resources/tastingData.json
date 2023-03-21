@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1001,
+        "drink": {
+            "id": 2002,
+            "name": "PBR",
+            "type": "beer",
+            "imageName": "beer"
+        },
+        "notes": "not bad",
+        "rating": 3
+    },
+    {
+        "id": 1002,
+        "drink": {
+            "id": 2001,
+            "name": "ZD Cabernet",
+            "type": "wine",
+            "imageName": "white-wine"
+        },
+        "notes": "very good",
+        "rating": 5
+    }
+]

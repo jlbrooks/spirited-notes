@@ -1,0 +1,13 @@
+[
+    {
+        "id": 2001,
+        "name": "ZD Cabernet",
+        "type": "wine"
+    },
+    {
+        "id": 2002,
+        "name": "PBR",
+        "type": "beer"
+    }
+]
+
