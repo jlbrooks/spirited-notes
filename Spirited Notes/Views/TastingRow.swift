@@ -14,7 +14,7 @@ struct TastingRow: View {
         HStack {
             tasting.drink.image
                 .resizable()
-                .frame(width: 150, height: 150)
+                .frame(width: 100, height: 100)
             VStack(alignment: .leading) {
                 HStack() {
                     Text(tasting.drink.name)

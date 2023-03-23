@@ -8,7 +8,11 @@
             "imageName": "beer"
         },
         "notes": "not bad",
-        "rating": 3
+        "rating": 3,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        }
     },
     {
         "id": 1002,
@@ -19,6 +23,10 @@
             "imageName": "white-wine"
         },
         "notes": "very good",
-        "rating": 5
+        "rating": 5,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        }
     }
 ]

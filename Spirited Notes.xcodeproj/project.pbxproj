@@ -22,6 +22,8 @@
 		FAA79D6629C93A89002BA1C6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6529C93A89002BA1C6 /* ModelData.swift */; };
 		FAA79D6A29C94098002BA1C6 /* TastingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6929C94098002BA1C6 /* TastingList.swift */; };
 		FAA79D6C29C94DEA002BA1C6 /* TastingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */; };
+		FAA79D6E29CBCC73002BA1C6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6D29CBCC73002BA1C6 /* CircleImage.swift */; };
+		FAA79D7029CBCDFE002BA1C6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6F29CBCDFE002BA1C6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		FAA79D6529C93A89002BA1C6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		FAA79D6929C94098002BA1C6 /* TastingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingList.swift; sourceTree = "<group>"; };
 		FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingDetail.swift; sourceTree = "<group>"; };
+		FAA79D6D29CBCC73002BA1C6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FAA79D6F29CBCDFE002BA1C6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,8 @@
 				FAA79D5E29C938B8002BA1C6 /* TastingRow.swift */,
 				FAA79D6929C94098002BA1C6 /* TastingList.swift */,
 				FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */,
+				FAA79D6D29CBCC73002BA1C6 /* CircleImage.swift */,
+				FAA79D6F29CBCDFE002BA1C6 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,7 +318,9 @@
 				FAA79D5B29C93714002BA1C6 /* Drink.swift in Sources */,
 				FAA79D6C29C94DEA002BA1C6 /* TastingDetail.swift in Sources */,
 				FAA79D2F29C77553002BA1C6 /* Spirited_NotesApp.swift in Sources */,
+				FAA79D6E29CBCC73002BA1C6 /* CircleImage.swift in Sources */,
 				FAA79D5F29C938B8002BA1C6 /* TastingRow.swift in Sources */,
+				FAA79D7029CBCDFE002BA1C6 /* MapView.swift in Sources */,
 				FAA79D6A29C94098002BA1C6 /* TastingList.swift in Sources */,
 				FAA79D6629C93A89002BA1C6 /* ModelData.swift in Sources */,
 			);

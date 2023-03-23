@@ -7,31 +7,9 @@
 
 import SwiftUI
 
-func newTasting() -> Void {
-    print("new")
-}
-
 struct ContentView: View {
     var body: some View {
-        NavigationStack {
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
-            }
-            .padding()
-            .toolbar{
-                ToolbarItemGroup(placement: .bottomBar) {
-                    Spacer()
-                    Button(action: newTasting) {
-                        Image(systemName: "plus")
-                            .imageScale(.large)
-                            .font(.title)
-                    }
-                }
-            }
-        }
+        TastingList()
     }
 }
 

@@ -7,10 +7,31 @@
 
 import SwiftUI
 
+func newTasting() -> Void {
+    print("new")
+}
+
 struct TastingList: View {
     var body: some View {
-        List(tastings) { tasting in
-            TastingRow(tasting: tasting)
+        NavigationView {
+            List(tastings) { tasting in
+                NavigationLink {
+                    TastingDetail(tasting: tasting)
+                } label: {
+                    TastingRow(tasting: tasting)
+                }
+            }
+            .navigationTitle("Tastings")
+            .toolbar{
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Spacer()
+                    Button(action: newTasting) {
+                        Image(systemName: "plus")
+                            .imageScale(.large)
+                            .font(.title)
+                    }
+                }
+            }
         }
     }
 }

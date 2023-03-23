@@ -12,13 +12,38 @@ struct TastingDetail: View {
 
     var body: some View {
         ScrollView {
-            Text(tasting.drink.name)
+            MapView(coordinate: tasting.locationCoordinate)
+                .ignoresSafeArea(edges: .top)
+                .frame(height: 300)
+            CircleImage(image: tasting.drink.image)
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            VStack(alignment: .leading) {
+                Text(tasting.drink.name)
+                    .font(.title)
+                HStack {
+                    Text(tasting.drink.type)
+                    Spacer()
+                    Text(String(tasting.rating))
+                }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                Divider()
+                Text("Notes for \(tasting.drink.name)")
+                    .font(.title2)
+                Spacer()
+                Text(tasting.notes)
+                    .font(.body)
+            }
+            .padding()
         }
+        .navigationTitle(tasting.drink.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct TastingDetail_Previews: PreviewProvider {
     static var previews: some View {
-        TastingDetail(tasting: tastings[0])
+        TastingDetail(tasting: tastings[1])
     }
 }
