@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-func newTasting() -> Void {
-    print("new")
-}
-
 struct TastingList: View {
+    // MARK: - Properties
+    @State private var addTastingSheetActive = false
+    @FetchRequest(sortDescriptors: []) private var newTastings: FetchedResults<Tasting>
+    
+    // MARK: - View
     var body: some View {
         NavigationView {
-            List(tastings) { tasting in
+            List(newTastings) { tasting in
                 NavigationLink {
                     TastingDetail(tasting: tasting)
                 } label: {
@@ -33,11 +34,19 @@ struct TastingList: View {
                 }
             }
         }
+        .sheet(isPresented: $addTastingSheetActive) {
+            NewTasting()
+        }
+    }
+
+    func newTasting() -> Void {
+        addTastingSheetActive = true
     }
 }
 
 struct TastingList_Previews: PreviewProvider {
     static var previews: some View {
         TastingList()
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

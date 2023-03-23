@@ -10,8 +10,8 @@
         "notes": "not bad",
         "rating": 3,
         "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
+            "longitude": -122.274269,
+            "latitude": 38.297928
         }
     },
     {
@@ -25,8 +25,8 @@
         "notes": "very good",
         "rating": 5,
         "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
+            "longitude": -122.274269,
+            "latitude": 38.297928
         }
     }
 ]
