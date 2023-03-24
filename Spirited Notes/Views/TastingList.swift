@@ -10,12 +10,12 @@ import SwiftUI
 struct TastingList: View {
     // MARK: - Properties
     @State private var addTastingSheetActive = false
-    @FetchRequest(sortDescriptors: []) private var newTastings: FetchedResults<Tasting>
+    @FetchRequest(sortDescriptors: []) private var tastings: FetchedResults<Tasting>
     
     // MARK: - View
     var body: some View {
         NavigationView {
-            List(newTastings) { tasting in
+            List(tastings) { tasting in
                 NavigationLink {
                     TastingDetail(tasting: tasting)
                 } label: {

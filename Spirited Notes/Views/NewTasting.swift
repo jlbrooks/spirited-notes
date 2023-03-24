@@ -9,7 +9,9 @@ import SwiftUI
 
 struct NewTasting: View {
     // MARK: - Properties
+    @State private var searchText: String = ""
     @Environment(\.presentationMode) var presentationMode
+    @FetchRequest(sortDescriptors: []) private var drinks: FetchedResults<Drink>
     
     // MARK: - View
     var body: some View {
@@ -28,11 +30,27 @@ struct NewTasting: View {
                 .disabled(true)
                 .padding()
             }
-            Spacer()
+            NavigationStack {
+                List(searchResults) { drink in
+                    Text(drink.name!)
+                }
+            }
+            .searchable(
+                text: $searchText,
+                prompt: "Drink"
+            )
         }
     }
     
     // MARK: - Functions
+    var searchResults: [Drink] {
+        if searchText.isEmpty {
+            return Array(drinks)
+        } else {
+            return drinks.filter { $0.name!.contains(searchText) }
+        }
+    }
+
     func onCancel() -> Void {
         presentationMode.wrappedValue.dismiss()
     }
@@ -50,5 +68,6 @@ struct NewTasting_Previews: PreviewProvider {
         .sheet(isPresented: .constant(true)) {
             NewTasting()
         }
+        .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
