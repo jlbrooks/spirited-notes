@@ -19,4 +19,13 @@ public class Drink: NSManagedObject {
             return Image("unknown")
         }
     }
+    
+    static func preview(context: NSManagedObjectContext) -> Drink {
+        let drink = Drink(context: context)
+        drink.id = UUID()
+        drink.name = "test"
+        drink.type = "wine"
+        drink.imageName = "white-wine"
+        return drink
+    }
 }

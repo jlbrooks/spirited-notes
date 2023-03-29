@@ -35,7 +35,7 @@ struct TastingList: View {
             }
         }
         .sheet(isPresented: $addTastingSheetActive) {
-            NewTasting()
+            NewTastingScreen()
         }
     }
 

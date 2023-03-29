@@ -22,11 +22,14 @@
 		FAA79D6C29C94DEA002BA1C6 /* TastingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */; };
 		FAA79D6E29CBCC73002BA1C6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6D29CBCC73002BA1C6 /* CircleImage.swift */; };
 		FAA79D7029CBCDFE002BA1C6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D6F29CBCDFE002BA1C6 /* MapView.swift */; };
-		FAA79D7229CBDB26002BA1C6 /* NewTasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D7129CBDB26002BA1C6 /* NewTasting.swift */; };
+		FAA79D7229CBDB26002BA1C6 /* DrinkSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D7129CBDB26002BA1C6 /* DrinkSearch.swift */; };
 		FAA79D7529CBDFEF002BA1C6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D7329CBDFEF002BA1C6 /* Model.xcdatamodeld */; };
 		FAA79D7729CC03FD002BA1C6 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D7629CC03FD002BA1C6 /* PersistenceController.swift */; };
 		FAA79D7C29CCD58B002BA1C6 /* Tasting+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D7829CCD58B002BA1C6 /* Tasting+CoreDataClass.swift */; };
 		FAA79D7E29CCD58B002BA1C6 /* Drink+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D7A29CCD58B002BA1C6 /* Drink+CoreDataClass.swift */; };
+		FAA79D8129CE6C78002BA1C6 /* NewTasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D8029CE6C78002BA1C6 /* NewTasting.swift */; };
+		FAA79D8329D3F27A002BA1C6 /* NewTastingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D8229D3F27A002BA1C6 /* NewTastingScreen.swift */; };
+		FAA79D8529D40121002BA1C6 /* NewDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA79D8429D40121002BA1C6 /* NewDrink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,11 +68,14 @@
 		FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingDetail.swift; sourceTree = "<group>"; };
 		FAA79D6D29CBCC73002BA1C6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		FAA79D6F29CBCDFE002BA1C6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		FAA79D7129CBDB26002BA1C6 /* NewTasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTasting.swift; sourceTree = "<group>"; };
+		FAA79D7129CBDB26002BA1C6 /* DrinkSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkSearch.swift; sourceTree = "<group>"; };
 		FAA79D7429CBDFEF002BA1C6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FAA79D7629CC03FD002BA1C6 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		FAA79D7829CCD58B002BA1C6 /* Tasting+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tasting+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FAA79D7A29CCD58B002BA1C6 /* Drink+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Drink+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FAA79D8029CE6C78002BA1C6 /* NewTasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTasting.swift; sourceTree = "<group>"; };
+		FAA79D8229D3F27A002BA1C6 /* NewTastingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTastingScreen.swift; sourceTree = "<group>"; };
+		FAA79D8429D40121002BA1C6 /* NewDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDrink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +182,10 @@
 				FAA79D6B29C94DEA002BA1C6 /* TastingDetail.swift */,
 				FAA79D6D29CBCC73002BA1C6 /* CircleImage.swift */,
 				FAA79D6F29CBCDFE002BA1C6 /* MapView.swift */,
-				FAA79D7129CBDB26002BA1C6 /* NewTasting.swift */,
+				FAA79D7129CBDB26002BA1C6 /* DrinkSearch.swift */,
+				FAA79D8229D3F27A002BA1C6 /* NewTastingScreen.swift */,
+				FAA79D8029CE6C78002BA1C6 /* NewTasting.swift */,
+				FAA79D8429D40121002BA1C6 /* NewDrink.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,14 +332,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA79D7E29CCD58B002BA1C6 /* Drink+CoreDataClass.swift in Sources */,
+				FAA79D8329D3F27A002BA1C6 /* NewTastingScreen.swift in Sources */,
 				FAA79D3129C77553002BA1C6 /* HomeView.swift in Sources */,
 				FAA79D6C29C94DEA002BA1C6 /* TastingDetail.swift in Sources */,
 				FAA79D2F29C77553002BA1C6 /* Spirited_NotesApp.swift in Sources */,
 				FAA79D6E29CBCC73002BA1C6 /* CircleImage.swift in Sources */,
 				FAA79D7C29CCD58B002BA1C6 /* Tasting+CoreDataClass.swift in Sources */,
-				FAA79D7229CBDB26002BA1C6 /* NewTasting.swift in Sources */,
+				FAA79D7229CBDB26002BA1C6 /* DrinkSearch.swift in Sources */,
+				FAA79D8129CE6C78002BA1C6 /* NewTasting.swift in Sources */,
 				FAA79D5F29C938B8002BA1C6 /* TastingRow.swift in Sources */,
 				FAA79D7029CBCDFE002BA1C6 /* MapView.swift in Sources */,
+				FAA79D8529D40121002BA1C6 /* NewDrink.swift in Sources */,
 				FAA79D6A29C94098002BA1C6 /* TastingList.swift in Sources */,
 				FAA79D6629C93A89002BA1C6 /* ModelData.swift in Sources */,
 				FAA79D7729CC03FD002BA1C6 /* PersistenceController.swift in Sources */,
