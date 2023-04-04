@@ -27,7 +27,7 @@ struct PersistenceController {
             let drink = Drink(context: controller.container.viewContext)
             drink.id = UUID()
             drink.name = "Drink \(i)"
-            drink.type = "wine"
+            drink.type = Drink.DrinkType.wine
             drink.imageName = "white-wine"
             
             let tasting = Tasting(context: controller.container.viewContext)

@@ -22,7 +22,7 @@ struct TastingDetail: View {
                 Text(tasting.drink?.name ?? "unknown name")
                     .font(.title)
                 HStack {
-                    Text(tasting.drink?.type ?? "unknown type")
+                    Text(tasting.drink?.type.rawValue ?? "unknown type")
                     Spacer()
                     Text(String(tasting.rating))
                 }

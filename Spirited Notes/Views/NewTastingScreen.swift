@@ -18,7 +18,6 @@ struct NewTastingScreen: View {
     @State private var viewState: ViewState = ViewState.searchDrink
     @State private var selectedDrink: Drink? = Optional.none
     @Environment(\.presentationMode) var presentationMode
-    @FetchRequest(sortDescriptors: []) private var drinks: FetchedResults<Drink>
     
     
     
@@ -46,7 +45,7 @@ struct NewTastingScreen: View {
                 NewTasting(drink: selectedDrink!, onChangeDrink: onChangeDrink)
                     .transition(.slide)
             case ViewState.newDrink:
-                NewDrink(onCancel: onCancelNewDrink)
+                NewDrink(onCancel: onCancelNewDrink, onSave: onSaveNewWine)
                     .transition(.slide)
             }
             Spacer()
@@ -54,14 +53,6 @@ struct NewTastingScreen: View {
     }
     
     // MARK: - Functions
-    var searchResults: [Drink] {
-        if searchText.isEmpty {
-            return Array(drinks)
-        } else {
-            return drinks.filter { $0.name!.contains(searchText) }
-        }
-    }
-    
     func onDrinkSelected(drink: Drink) -> Void {
         selectedDrink = Optional.some(drink)
         withAnimation {
@@ -87,7 +78,30 @@ struct NewTastingScreen: View {
             viewState = ViewState.searchDrink
         }
     }
-
+    
+    func onSaveNewWine(name: String,
+                        varietal: String,
+                        producer: String,
+                        region: String,
+                        vintage: Int32,
+                        abv: Double) -> Void {
+        let drink = Drink.newWine(
+            context: PersistenceController.shared.container.viewContext,
+            name: name,
+            varietal: varietal,
+            producer: producer,
+            region: region,
+            vintage: vintage,
+            abv: abv,
+            imageName: ""
+        )
+        PersistenceController.shared.save()
+        selectedDrink = drink
+        withAnimation {
+            viewState = ViewState.newTasting
+        }
+    }
+ 
     func onCancel() -> Void {
         presentationMode.wrappedValue.dismiss()
     }

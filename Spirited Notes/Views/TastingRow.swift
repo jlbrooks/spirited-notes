@@ -18,7 +18,7 @@ struct TastingRow: View {
             VStack(alignment: .leading) {
                 HStack() {
                     Text((tasting.drink?.name) ?? "unknown name")
-                    Text((tasting.drink?.type) ?? "unknown type").fontWeight(Font.Weight.ultraLight)
+                    Text((tasting.drink?.type.rawValue) ?? "unknown type").fontWeight(Font.Weight.ultraLight)
                     Spacer()
                 }
                 HStack {
